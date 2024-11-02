@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+  display: flex;
+}
+
+
+.sidebar {
+  background-color: #1a1a1a;
+  color: #ffd700;
+  width: 220px;
+  height: 100vh;
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sidebar h2 {
+  color: #ffd700;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  margin: 1em 0;
+}
+
+.sidebar a {
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+.sidebar a:hover {
+  color: #fff;
+}
+
+
+.content {
+  margin-left: 240px;
+  padding: 2em;
+  width: calc(100% - 240px);
+}
+
+
+header {
+  background: #000;
+  color: #ffd700;
+  text-align: center;
+  padding: 2em 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+
+section {
+  padding: 2em;
+  background: #1a1a1a;
+  margin-bottom: 2em;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+section h2 {
+  font-size: 2em;
+  color: #ffd700;
+  border-bottom: 2px solid #ffd700;
+  padding-bottom: 0.2em;
+  margin-bottom: 1em;
+}
+
+section p {
+  font-size: 1.1em;
+  color: #e0e0e0;
+}
+
+.animal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  box-shadow: 0px 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+
+.animal-video {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  box-shadow: 0px 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+
+button {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  color: #000;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+.fact {
+  font-size: 1.1em;
+  color: #ffd700;
+  margin-top: 1em;
+}
+
+
+footer {
+  background-color: #000;
+  color: #ffd700;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
